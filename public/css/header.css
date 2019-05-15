@@ -1,0 +1,142 @@
+@charset "utf-8";
+/*css Document*/
+*{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:"Helvetica";
+}
+p,ul,li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+input{
+	outline:none;
+	border:none;
+}
+/*top*/
+#topBJ{
+	width:100%;
+	height:33px;
+	background-color:#333333;
+}
+#topBJ .top{
+	width:860px;
+	margin:0 auto;	
+}
+#topBJ .top li{
+	width:110px;
+	height:100%;
+	float:right;
+	line-height:33px;
+	cursor:pointer;
+}
+#topBJ .top li:first-child{
+	float:left;
+}
+#topBJ .top .mouse a:hover{
+	color:#00c8c8;
+}
+#topBJ .top .shopping_car{
+	background-color:#00c8c8;
+	color:#fff;
+	padding-left:30px;
+	width:70px;
+}
+#topBJ .top .shopping_car img{
+	position:relative;
+	left:-16px;
+	top:2px;
+}
+/*nav*/
+#navBJ{
+	width:100%;
+	height:70px;
+	position:absolute;
+	z-index:99;
+}
+#navBJ .nav{
+	width:1300px;
+	margin:0 auto;
+	line-height:70px;
+}
+#navBJ .nav li{
+	float:left;
+	width:auto;
+	padding:0 20px;
+}
+#navBJ .nav li a{
+	color:#000;
+}
+#navBJ .nav li a:hover{
+	color:#00c8c8;
+	cursor:pointer;
+}
+#navBJ .nav li input{
+	width:140px;
+	height:23px;
+	border:1px solid #ececec;
+	color:#adadad;
+	padding-left:5px;
+	background:url(../img/search_.png) no-repeat 125px 5px;
+}
+#navBJ .nav li:first-child{
+	margin-right:298px;
+}
+/*导航栏左下角标*/
+#navBJ .nav .jiaobiao{
+	position:relative;
+}
+
+/*弹窗样式*/
+.tanchuang{
+	position:absolute;
+	width:340px;
+	height:300px;
+	padding:22px;
+	margin-top:-10px;
+	box-shadow:0 5px 20px #a0a0a0;
+	display:none;
+	background-color:#fff;
+}
+.tanchuang .tcTop{
+	width:100%;
+	height:180px;
+}
+.tanchuang .tcTop .half{
+	width:50%;
+	float:left;
+}
+.tanchuang .tcTop .half p{
+	line-height:20px;
+	color:#727272;
+	font-size:8px;
+}
+.tanchuang .tcTop .half .firstlist{
+	font-weight:bold;
+	font-size:10px;
+	color:#575153;
+	margin-bottom:15px;
+}
+.tanchuang .bottom{
+	width:100%;
+	height:120px;
+	background-color:#333;	
+	
+}
+.tanchuang .bottom p{
+	font-size:30px;
+	color:#fff;
+	text-align:center;
+	line-height:120px;
+	
+}
+/*鼠标移入时，弹窗显示*/
+#navBJ .nav .jiaobiao:hover .tanchuang{
+	display:block;
+}

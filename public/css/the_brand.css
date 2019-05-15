@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*css Document*/
+#main{
+	width:880px;
+	height:100%;
+	margin:0 auto;
+	margin-top:40px;
+}
+#main::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#main img{
+	vertical-align:top;
+
+}
+
+#main .main_left{
+	float:left;
+	width:417px;
+	margin-right:22px;
+}
+#main img.pic1{
+	margin-bottom:40px;
+}
+
+#main .main_left h4{
+	font-size:14px;
+	margin:10px 0 10px 0;
+}
+#main .main_left img{
+	transition:all .3s ease-in;
+}
+#main .main_left:hover img{
+	transform:scale(1.1);
+}
+#main .main_right .pic4{
+	transition:all .3s ease-in;
+}
+#main .main_right:hover .pic4{
+	transform:scale(1.1);
+}
+#main .main_left p,#main .main_right p{
+	font-size:10px;
+	margin-top:10px;
+	color:#8e8c8c;
+}
+#main .main_right{
+	float:right;
+	width:417px;
+}
+#main .main_right img{
+	margin-top:40px;
+}
+#main .main_right .hb{
+	margin-top:10px;
+}
+#main .main_right img.pic3{
+	margin-top:110px;
+}

@@ -1,0 +1,138 @@
+@charset "utf-8";
+/*css Document*/
+.bottombox{
+	width:100%;
+	padding:30px 0 30px 0;
+	background-color:#f8f8f8;
+}
+.bottombox .ulbox{
+	width:880px;
+	height:140px;
+	margin:0 auto;
+	box-sizing:border-box;
+}
+.bottombox .ulbox ul{
+	float:left;
+}
+
+.bottombox .ulbox ul li{
+	line-height:20px;
+}
+/*相邻选择器:获取紧紧挨在某元素后的兄弟元素*/
+.bottombox .ulbox ul+ul{
+	margin-left:60px;
+}
+.bottombox .ulbox ul h3{
+	font-size:16px;
+	font-weight:bold;
+	color:#000;
+	margin-bottom:5px;
+}
+/*清楚父级浮动*/
+.bottombox .kuang:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.bottombox .kuang{
+	width:880px;
+	margin:10px auto 30px;
+}
+.bottombox .gbox{
+	float:left;
+	width:430px;
+	height:146px;
+	background-color:#333333;
+	box-sizing:border-box;
+	padding-top:40px;
+}
+.kuang .gbox h3{
+	font-size:24px;
+	text-align:center;
+	
+}
+.kuang .gbox p{
+	font-size:22px;
+	text-align:center;
+	margin-top:5px;
+}
+.bottombox .bbox{
+	float:right;
+	width:430px;
+	height:146px;
+	background-color:#00c8c8;
+	box-sizing:border-box;
+	padding-top:40px;
+}
+.bottombox .bbox p{
+	width:260px;
+	height:40px;
+	margin:10px auto;
+}
+.bottombox .bbox a{
+	margin-right:71px;
+}
+.bottombox .bbox a span{color:#fff;}
+.bottombox .bbox .nomargin{
+	margin:0;
+}
+
+     .bottombox .bbox a{
+				font-size:14px;
+				color:#666;
+				text-decoration:none;
+				display:inline-block;
+				width: 37px;
+				height: 36px;
+				transition:all .3s ease-in-out;
+				background:url(../img/socialicons.png) no-repeat;
+			}
+			.bottombox .bbox a#weibo{
+				background-position:-100px -36px;
+			}
+			.bottombox .bbox a#weixin {
+				background-position:-50px -36px;
+			}
+			.bottombox .bbox a#app {
+				background-position:0 -36px;
+			}
+			.bottombox .bbox a span{
+				display:block;
+				margin-top:40px;
+				text-align:center;
+			}
+			.bottombox .bbox a#weibo:hover {
+					background-position: -100px 0;
+			}
+			.bottombox .bbox a#weixin:hover {
+					background-position: -50px 0;
+			}
+			.bottombox .bbox a#app:hover {
+					background-position: 0px 0;
+			}
+
+
+
+#foot{
+	width:100%;
+	height:32px;
+	background-color:#333333;
+}
+#foot .foot_bj{
+	width:880px;
+	height:32px;
+	margin:0 auto;
+	line-height:32px;
+}
+#foot .foot_bj .lf{
+	float:left;
+	color:#777777;
+	font-size:12px;
+}
+#foot .foot_bj .ri{
+	float:right;
+	color:#777777;
+	font-size:12px;
+}
+

@@ -1,0 +1,135 @@
+@charset "utf-8";
+/*css Document*/
+.clear{
+	clear:both;
+}
+.contten{
+	width:1294px;
+	margin:40px auto;
+	border-top:1px solid #b7b6b6;
+}
+.contten .nav_s{
+	width:100%;
+	height:90px;
+	margin:0 auto;
+	line-height:90px;
+	font-size:10px;
+}
+.contten .nav_s li{
+	width:110px;
+	text-align:left;
+	float:left;
+}
+.contten .nav_s li:hover{
+	color:#00c8c8;
+}
+.contten .photoBig{
+	width:100%;
+}
+.contten .photoBig .half{
+	width:50%;
+	height:100%;
+	float:left;
+}
+.contten .photoBig .half .photo{
+	width:310px;
+	height:365px;
+	float:left;
+	position:relative;
+}
+.contten .photoBig .half .photo span{
+	position:absolute;
+	left:10px;
+	top:10px;
+	color:#9a9a9a;
+	font-size:12px;
+}
+.contten .photoBig .lf{
+	float:right;
+}
+.contten .photoBig:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.contten .photoBig .half .pic{
+	width:634px;
+	height:512px;
+	float:left;
+	position:relative;
+}
+.contten .photoBig .half .pic span{
+	position:absolute;
+	left:10px;
+	top:10px;
+	color:#9a9a9a;
+	font-size:12px;
+}
+
+.lookbox{
+	width:1500px;
+	margin:0 auto 30px;
+	padding-top:20px;
+	border-top:1px solid #b7b6b6;
+}
+.lookbox:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.lookbox .look_b{
+	width:480px;
+	height:386px;
+	margin:0 auto;
+	background-color:#f8f8f8;
+	position:relative;
+	float:left;
+	box-sizing:border-box;
+	margin-right:5px;
+}
+ .lookbox .look_b .title{
+	font-weight:bold;
+	color:#575153;
+	font-size:26px;
+	text-align:right;
+	position:absolute;
+	top:72px;
+	right:50px;
+}
+ .lookbox .look_b .shuoming{
+	float:right;
+	font-weight:normal;
+	color:#575153;
+	font-size:26px;
+	text-align:right;
+	margin-top:113px;
+	margin-right:45px;
+}
+ .lookbox .look_b span{
+	width:220px;
+	height:60px;
+	font-size:10px;
+	color:#575153;
+	text-align:right;
+	line-height:18px;
+	position:absolute;
+	top:157px;
+	left:214px;
+}
+ .lookbox .look_b .button{
+	width:130px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	font-size:10px;
+	border:1px solid #737373;
+	color:#737373;
+	position:absolute;
+	top:265px;
+	left:301px;
+}
+ .lookbox .look_b img{
+	position:absolute;
+	top:23px;
+	left:17px;
+}
